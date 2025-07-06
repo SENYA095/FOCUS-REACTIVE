@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/font/Inter.ttf') format('truetype');
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@layer base {
+  /* === RESET === */
+  * {
+    @apply box-border m-0 p-0;
+  }
+
+  html, body {
+    @apply w-full h-full bg-black text-white font-inter antialiased;
+  }
+
+
+  img, picture, video, canvas, svg {
+    @apply block max-w-full;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold  text-white;
+  }
+
+  a {
+    @apply text-inherit no-underline;
+  }
+}
+
+button, input, textarea, select {
+  font-family: inherit;
+  color: inherit;
+}
+

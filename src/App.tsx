@@ -1,9 +1,12 @@
 import Header from "./components/Header";
+import Hero from "./components/Hero";
 
 function App() {
   return (
-    <div className="w-full h-screen py-5 px-9 bg-black text-white ">
+
+    <div className="w-[1440px] mx-auto h-screen py-8 px-10 ">
      <Header />
+     <Hero />
     </div>
   );
 }
