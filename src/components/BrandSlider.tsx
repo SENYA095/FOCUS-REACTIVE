@@ -19,7 +19,7 @@ const brandImages: string[] = [
 
 const BrandSlider: React.FC = () => {
   return (
-    <div className="overflow-hidden  bg-black">
+    <div className="overflow-hidden mt-[147px]  bg-black">
       <div className="flex w-max animate-slide gap-16">
         {[...brandImages, ...brandImages].map((img, i) => (
           <img

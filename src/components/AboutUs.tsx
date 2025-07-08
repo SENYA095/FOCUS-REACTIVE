@@ -13,7 +13,9 @@ const AboutUs = () => {
                                           <Star key={index} />
                                     ))}
                               </div>
-                              <span className="text-[12px] font-bold tracking-[-0.246px]">4,9</span>
+                              <span className="text-[12px] font-bold tracking-[-0.246px]">
+                                    4,9
+                              </span>
                         </div>
                   </div>
                   <div className=" w-[679px] flex items-center justify-between">
