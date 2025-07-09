@@ -1,5 +1,6 @@
 import AboutUs from "./components/AboutUs";
 import BrandSlider from "./components/BrandSlider";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Provide from "./components/Provide";
@@ -13,6 +14,7 @@ function App() {
      <AboutUs/>
      <BrandSlider/>
      <Provide/>
+     <Footer/>
     </div>
   );
 }
