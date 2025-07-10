@@ -23,7 +23,7 @@ const Footer = () => {
                         </div>
                   </div>
                   <div className="relative">
-                  <p className="uppercase text-[64px] font-bold leading-[1.1] text-center w-[806px] ">Our <span className="text-[#00E56D] underline decoration-solid decoration-[2.5%] underline-offset-[13.5%]">customer reviews</span> are excellent</p>
+                  <p className="uppercase text-[64px] font-bold leading-[1.1] text-center w-[806px]">Our <span className="text-[#00E56D] underline decoration-solid decoration-[2.5%] underline-offset-[13.5%]">customer reviews</span> are excellent</p>
                   <FooterIcon className="absolute top-2 right-[-20px]"/>
                   </div>
                   <p className="text-[24px] font-medium leading-[1]">Join the success stories!</p>

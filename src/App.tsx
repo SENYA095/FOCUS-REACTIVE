@@ -1,4 +1,5 @@
 import AboutUs from "./components/AboutUs";
+import Adventages from "./components/Adventages";
 import BrandSlider from "./components/BrandSlider";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -7,7 +8,6 @@ import Provide from "./components/Provide";
 
 function App() {
   return (
-
     <div className="w-[1440px] mx-auto h-screen py-8 px-10 ">
      <Header />
      <Hero />
@@ -15,6 +15,7 @@ function App() {
      <BrandSlider/>
      <Provide/>
      <Footer/>
+     <Adventages/>
     </div>
   );
 }
