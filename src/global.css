@@ -9,6 +9,12 @@
   font-display: swap;
 }
 
+@layer utilities {
+  .underline-animation-center span {
+    transform-origin: bottom center;
+  }
+}
+
 
 @layer base {
   /* === RESET === */

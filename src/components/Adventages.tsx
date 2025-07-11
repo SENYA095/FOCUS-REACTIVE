@@ -3,7 +3,7 @@ import React from "react";
 
 const Adventages = () => {
       return (
-            <div className="flex flex-col">
+            <div>
                   <div className="flex gap-[100px] items-start">
                         <span className="text-[240px] w-[785px] text-right font-bold uppercase leading-[.9] tracking-[-4.8px] text-[#00E56D]">
                               3.5%
