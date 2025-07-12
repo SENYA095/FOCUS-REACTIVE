@@ -29,7 +29,8 @@ const Hero = () => {
                         </h2>
                         <a
                               href="#"
-                              className="inline-flex h-[116px] px-[64px] py-[49px] justify-center items-center gap-[10px] shrink-0 rounded-[80px] bg-[#00E56D] text-black text-center text-[24px] font-semibold leading-[.8]"
+                              className="inline-flex h-[116px] px-[64px] py-[49px] justify-center items-center gap-[10px] shrink-0 rounded-[80px] bg-[#00E56D] border-2 border-[#00E56D] text-black text-center text-[24px] font-semibold leading-[.8]
+                              hover:text-white hover:bg-transparent transition-all duration-300"
                         >
                               REQUEST A QUOTE
                         </a>

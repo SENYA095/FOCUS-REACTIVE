@@ -54,7 +54,7 @@ const Header = () => {
                         </div>
                         <a
                               href="#"
-                              className="py-[10px] px-[24px] rounded-[999px] bg-[#00E56D] text-black font-medium"
+                              className="py-[10px] px-[24px] rounded-[999px] bg-[#00E56D] border-2 border-[#00E56D] text-black font-medium hover:text-white hover:bg-transparent transition-all duration-300"
                         >
                               {" "}
                               Contact Us
