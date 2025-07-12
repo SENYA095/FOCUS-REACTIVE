@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import Settings from "../assets/img/settings.png";
 import Switch from "../assets/img/switch.png";
 
 const Hero = () => {
+      const [toggled, setToggled] = useState(false);
       return (
             <>
                   <div className="  pt-[136px] flex items-center gap-[15px] ">
@@ -29,8 +30,10 @@ const Hero = () => {
                         </h2>
                         <a
                               href="#"
-                              className="inline-flex h-[116px] px-[64px] py-[49px] justify-center items-center gap-[10px] shrink-0 rounded-[80px] bg-[#00E56D] border-2 border-[#00E56D] text-black text-center text-[24px] font-semibold leading-[.8]
-                              hover:text-white hover:bg-transparent transition-all duration-300"
+                              onClick={() => setToggled(!toggled)}
+                              className={`inline-flex h-[116px] px-[64px] py-[49px] justify-center items-center gap-[10px] shrink-0 rounded-[80px] bg-[#00E56D] border-2 border-[#00E56D] text-black text-center text-[24px] font-semibold leading-[.8] hover:text-white hover:bg-transparent transition-all duration-300 ${
+                                    !toggled ? "animate-glow" : ""
+                              }`}
                         >
                               REQUEST A QUOTE
                         </a>

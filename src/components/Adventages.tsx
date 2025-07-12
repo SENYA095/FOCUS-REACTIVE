@@ -3,7 +3,8 @@ import React from "react";
 
 const Adventages = () => {
       return (
-            <div>
+            <div className="relative h-[3000px] mt-[500px]">
+                  <div className="sticky top-1/2 -translate-y-1/2  ">
                   <div className="flex gap-[100px] items-start">
                         <span className="text-[240px] w-[785px] text-right font-bold uppercase leading-[.9] tracking-[-4.8px] text-[#00E56D]">
                               3.5%
@@ -27,6 +28,7 @@ const Adventages = () => {
                         <p className="text-[40px] font-semibold">
                               Website Performance
                         </p>
+                  </div>
                   </div>
             </div>
       );
